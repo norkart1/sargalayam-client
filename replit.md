@@ -33,16 +33,17 @@ src/
 ```
 
 ### Backend Integration
-The frontend connects to external APIs hosted on Railway:
-- Team data: `https://sargalayamserver-production.up.railway.app/teams`
-- Admin data: `https://sargalayamserver-production.up.railway.app/admin`
-- Images: `https://sargalayamserver-production.up.railway.app/teamImages`
+The frontend connects to external APIs hosted on Render:
+- Team data: `https://sargalayamserver-mt7j.onrender.com/teams`
+- Admin data: `https://sargalayamserver-mt7j.onrender.com/admin`
+- Images: `https://sargalayamserver-mt7j.onrender.com/teamImages`
+- Program images: `https://sargalayamserver-mt7j.onrender.com/programImg`
 
 ### Current Status
 - Development server running on port 5000
 - Hot reload working properly
 - Application loads successfully
-- API calls fail (expected - external backend not accessible in dev)
+- API calls working successfully with new server URL
 - Ready for deployment
 
 ### User Preferences

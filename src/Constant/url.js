@@ -1,7 +1,7 @@
-export const adminBaseUrl = "https://sargalayamserver-production.up.railway.app/admin";
-export const teamBaseUrl = "https://sargalayamserver-production.up.railway.app/teams";
-export const imageUrl = "https://sargalayamserver-production.up.railway.app/teamImages";
-export const imageUrl2 = "https://sargalayamserver-production.up.railway.app/programImg";
+export const adminBaseUrl = "https://sargalayamserver-mt7j.onrender.com/admin";
+export const teamBaseUrl = "https://sargalayamserver-mt7j.onrender.com/teams";
+export const imageUrl = "https://sargalayamserver-mt7j.onrender.com/teamImages";
+export const imageUrl2 = "https://sargalayamserver-mt7j.onrender.com/programImg";
 
 
 //render
