@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Footer.css";
 import { keyframes, styled } from "styled-components";
 
@@ -21,6 +21,13 @@ const SpinningImage = styled.img`
 `;
 
 export default function Footer(props) {
+  useEffect(() => {
+    const yearElement = document.getElementById("copyright-year");
+    if (yearElement) {
+      yearElement.textContent = new Date().getFullYear();
+    }
+  }, []);
+
   return (
     <div hidden={props.isHide}>
       <>
